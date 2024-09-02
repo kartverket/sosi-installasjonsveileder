@@ -1,3 +1,3 @@
 Se [Installasjonsveileder html](https://htmlpreview.github.io/?https://github.com/kartverket/sosi-installasjonsveileder/blob/main/index.html)
 
-Se [Installasjonsveileder adoc](https://https://github.com/kartverket/sosi-installasjonsveileder/blob/main/InstallasjonerV3a2.adoc)
+Se [Installasjonsveileder adoc](https://github.com/kartverket/sosi-installasjonsveileder/blob/main/InstallasjonerV3a2.adoc)
