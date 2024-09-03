@@ -75,7 +75,7 @@ Hvis du har behov for å oppdatere noen av modellene i modellregisteret, må du 
 .installere og konfigurere *SVN*
 [%collapsible]
 ======
-include::tilgangtilmodellregisteret.adoc[]
+include::tilgangTilModellregisteret.adoc[]
 ======
 
 .Sette opp *versjonskontroll i EA*
