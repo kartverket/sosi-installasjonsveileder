@@ -1,6 +1,8 @@
 :imagesdir: img/
 
-==== Konfigurere tilgang til SOSI-modellregister
+.Konfigurere tilgang til SOSI-modellregister
+[%collapsible]
+====
 Her beskrives hvordan du oppretter eller reparerer tilgangen fra EA til SOSI modellregister.
 
 * Åpne prosjektfila som skal være kobla til modellregisteret
@@ -8,9 +10,10 @@ Her beskrives hvordan du oppretter eller reparerer tilgangen fra EA til SOSI mod
 * Gå til versjonskontrollinnstillingene på en av disse to måtene:
 ** Dersom du har et oppsett som er mangelfullt, vil du kunne få spørsmål om du vil reparere innstillingene.
 ** Eller velg *Project-VC* under *Settings* i hovedmenyen
-
-===== Versjonskontrollinstillinger
-
+====
+.Versjonskontrollinstillinger
+[%collapsible]
+====
 * *Model Settings*: sørg for at den midterste og nederste av de 3 boksene er huket av.
 
 * *Configuration Details* 
@@ -33,3 +36,4 @@ image::EANewProject7.png[Placeholder]
 
 * Klikk på *Save* før du lukker vinduet.
 
+====

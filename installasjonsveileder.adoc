@@ -9,20 +9,21 @@ Versjon 3.1
 Denne veilederen gir en oversikt over installasjon av verktøy og programvare for arbeid med UML-modeller i SOSI-modellregister. +
 Andre veiledere kan du finne på https://www.geonorge.no/verktoy/verktoy-for-produktspesifikasjon/[sidene for verktøy og veiledere på geonorge.no].
 
+////
 === Installasjon av Enterprise Architect 
 
 For å jobbe med UML-modeller trenger du Enterprise Architect (EA).  +
 Vi anbefaler å installere 64-bits utgaven av EA versjon 16. +
 
-.Installasjon av EA 16
-[%collapsible]
-====
+////
+
 include::installasjonAvEA.adoc[]
-====
+
 
 // Se xref:installasjonAvEA.adoc[veileder for installasjon av EA 16].
 
 
+////
 === Installasjon av tilleggsfunksjoner til EA
 
 Avhengig av hvordan modellene skal brukes, har du behov for å installere noen tilleggsfunksjoner til EA. 
@@ -57,7 +58,9 @@ Dersom en UML-modell skal realiseres i SOSI-format, trenger du dette tillegget f
 https://register.geonorge.no/filer/uml-verktøy/sosi-plugin-64-bit[Last ned SOSI plugin fra register.geonorge.no]
 ====
 
-=== SOSI-modellregister
+////
+
+== SOSI-modellregister
 .Last ned EA prosjektfil med SOSI modellregister
 [%collapsible]
 ====
@@ -71,19 +74,19 @@ Hvis du har behov for å oppdatere noen av modellene i modellregisteret, må du 
 
 .installere og konfigurere *SVN*
 [%collapsible]
-====
+======
 include::tilgangtilmodellregisteret.adoc[]
-====
+======
 
-.sette opp *versjonskontroll i EA*
+.Sette opp *versjonskontroll i EA*
 [%collapsible]
-====
+======
 include::konfigurereTilgangFraEAtilSVN.adoc[]
-====
+======
 
 //====
 
-=== Verktøy for modelldokumentasjon
+== Verktøy for modelldokumentasjon
 
 Produktspesifikasjonen bør publiseres som html.
 Du kan oppnå dette ved å skrive spesifikasjonen i AsciiDoc-format, og konvertere til html-format.
