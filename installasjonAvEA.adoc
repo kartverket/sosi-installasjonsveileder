@@ -2,43 +2,67 @@
 
 == Installasjon av Enterprise Architect
 
-=== Vi bruker 64-bits utgaven av EA versjon 16
+=== Bruk 64-bits utgaven av EA - versjon 16
 
-Versjon 16 av Enterprise Architect (EA) finnes i 64-bits utgave som har mange store forbedringer. En viktig forbedring er at hele modellregisteret kan lagres i en og samme prosjektfil.
+Versjon 16 av Enterprise Architect (EA) finnes i 64-bits utgave. Denne har mange store forbedringer, blant annet at hele modellregisteret kan lagres i en og samme prosjektfil.
 
 === Nedlasting og installasjon
-Ta kontakt med IT-support i din virksomhet for å laste ned og installere EA etter gjeldende policy. Vi anbefaler EA Corporate edition hvis du vil kjøre script.
+Ta kontakt med IT-support i din virksomhet for å laste ned og installere EA etter gjeldende policy. Vi anbefaler EA Corporate edition hvis du har behov for å kjøre script.
 
-=== Nødvendige konfigurasjoner av EA
+=== Konfigurasjonsinnstillinger i EA
 
-==== Tegnsett
+Når en ny installasjon av EA er på plass, vil konfigurasjonen av EA gjerne gå tilbake til standardinnstillingene. Disse må da settes på nytt.
 
+
+.Hvordan endre konfigurasjonsinnstillingene
+[%collapsible]
+====
+Konfigurasjonsinnstillingene kan endres ved å inn på Preferences:  
+
+* Under *Start* velg *Preferences* og *Preferences...*
+
+.Konfigurasjonsmenyen i EA
+image::Preferences.png[figuren viser konfigurasjonsmulighetene i EA]
+
+* Her kan du velge å endre mange av konfigurasjonsinnstillingene. +
+Se under for en oversikt over konfigurasjoner vi mener er nødvendig å endre.
+
+* Merk at endringene ikke nødvendigvis vil bli satt i verk før du starter EA på nytt.
+====
+
+// ==== Nødvendige konfigurasjonsendringer
+
+Du bør utføre disse endringene av konfigurasjonsinnstillingene: 
+
+.Bruk UTF-8 som tegnsett
+[%collapsible]
+====
 For de aller fleste brukstilfellene er det nødvendig å konfiguere EA til å bruke utf-8 som tegnsett.
 
-* Under *Start* velg *Preferences* og *Preferences...*
+* Velg *XML Specifications* i konfigurasjonsmenyen
+* Sett *Code Page* til *utf-8*, som vist under.
 
-* Velg *XML Specifications*
-** *Code Page* settes til *utf-8*, som vist under.
 
-.Skjermbilde for konfigurasjon av tegnsett
-image::EnterpriseArchitectXML1.png[figuren viser feltet der du skal skrive inn teksten utf-8]
+.Skjermbilde for konfigurasjon av tegnsettet
+image::utf8.png[figuren viser feltet der du skal skrive inn teksten utf-8]
 
-* Endringen trer i kraft når du starter opp EA på nytt.
 
-==== Brukerkontroll av rekkefølge på egenskaper i klasser.
+====
 
-Etter en ny installasjon er det vanlig at egenskaper sorteres alfabetisk. I realiseringer som GML er fast rekkefølge påkrevet, så brukeren må kunne ha kontroll på rekkefølgen.
+.Ta kontroll på rekkefølgen av egenskaper i klasser.
+[%collapsible]
+====
+En nyinstallert EA vil være konfigurert til å vise attributtene i alfabetisk rekkefølge. Siden det i realiseringer som GML er nødvendig å holde en fast rekkefølge, må brukeren kunne ha kontroll på rekkefølgen.
 
-* Under *Start* velg *Preferences* og *Preferences...*
+* Velg *Objects* i konfigurasjonsmenyen
+* Ta vekk haken ved *Sort Features Alphabetically*.
+====
 
-* Velg *Objects*
-** Ta vekk haken ved *Sort Features Alphabetically*.
+.Bruk høy oppløsning på figurene i dokumentasjonen.
+[%collapsible]
+====
+Diagrammer og figurer bør ha høyest mulig oppløsning i dokumentasjonen av modellen.
 
-==== Bildeoppløsning ved generering av dokumentasjon.
-
-Diagrammer og figurer bør ha høyest mulig oppløsning i dokumentasjonen.
-
-* Under *Start* velg *Preferences* og *Preferences...*
-
-* Velg *Diagram*
-** *Scale Saved Bitmaps* settes til *400*.
+* Velg *Diagram* i konfigurasjonsmenyen
+* Sett *Scale Saved Bitmaps* til *400%*.
+====

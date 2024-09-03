@@ -1,0 +1,101 @@
+= Installasjon av programvare for arbeid med UML
+Standardiseringssekretariatet <standardiseringssekretariatet@kartverket.no>
+Versjon 3.1
+
+//Versjon 3.0alfa
+ 
+//Denne veilederen erstatter installasjonveileder for EA 15 og tidligere, som kan finnes på stien: https://sosi.geonorge.no/veiledere/installasjonsveileder
+
+Denne veilederen gir en oversikt over installasjon av verktøy og programvare for arbeid med UML-modeller i SOSI-modellregister. +
+Andre veiledere kan du finne på https://www.geonorge.no/verktoy/verktoy-for-produktspesifikasjon/[sidene for verktøy og veiledere på geonorge.no].
+
+=== Installasjon av Enterprise Architect 
+
+For å jobbe med UML-modeller trenger du Enterprise Architect (EA).  +
+Vi anbefaler å installere 64-bits utgaven av EA versjon 16. +
+
+.Installasjon av EA 16
+[%collapsible]
+====
+include::installasjonAvEA.adoc[]
+====
+
+// Se xref:installasjonAvEA.adoc[veileder for installasjon av EA 16].
+
+
+=== Installasjon av tilleggsfunksjoner til EA
+
+Avhengig av hvordan modellene skal brukes, har du behov for å installere noen tilleggsfunksjoner til EA. 
+// Nederfor finner du lenker til disse tilleggene.
+
+For å installere tilleggene må du først sørge for at EA er lukket. Når du starter opp igjen EA etter installasjonen vil tilleggene være tilgjengelige.
+
+//.SOSI Model Validation Add-In
+.*SOSI Model Validation* for å validere UML-modeller
+[%collapsible]
+====
+SOSI Model Validation hjelper deg å validere en UML-modell. Valideringen kontrollerer om modellen er i henhold til de krav og anbefalinger som er gitt i standarden https://register.geonorge.no/standarder/sosi/del-1-generell-del/regler-for-uml-modellering[Regler for UML-modellering (register.geonorge.no)].
+
+https://register.geonorge.no/filer/uml-verkt%C3%B8y/sosi-model-validation-64-bit[Last ned SOSI model validation fra register.geonorge.no]
+====
+
+//.ShapeChange Add-In
+.*ShapeChange Add-In* for realisering i GML-format
+[%collapsible]
+====
+Når en UML-modell skal realiseres i GML-format, bruker du ShapeChange for å generere et GML-skjema for modellen.
+
+https://register.geonorge.no/filer/uml-verkt%C3%B8y/shapechange-add-in-64-bit[Last ned ShapeChange Add-In fra register.geonorge.no]
+====
+
+//.SOSI plugin
+.*SOSI plugin* for realisering i SOSI-format
+[%collapsible]
+====
+Dersom en UML-modell skal realiseres i SOSI-format, trenger du dette tillegget for å generere definisjonsfiler for SOSI-kontroll. 
+
+https://register.geonorge.no/filer/uml-verktøy/sosi-plugin-64-bit[Last ned SOSI plugin fra register.geonorge.no]
+====
+
+=== SOSI-modellregister
+.Last ned EA prosjektfil med SOSI modellregister
+[%collapsible]
+====
+For å arbeide med UML-modeller i SOSI modellregister anbefaler vi å https://sosi.geonorge.no/modellfiler/sosi_modellregister.qea[laste ned en tilrettelagt prosjektfil (sosi_modellregister.qea) fra geonorge.no ]. + 
+I tillegg til en oppdatert versjon av hele modellregisteret, inneholder denne fila noen nyttige verktøy, som SOSI-UML profil 5.1 og skript for å generere dokumentasjon av modellen)
+
+Denne fila kan leses og brukes direkte dersom du bare har behov for å lese modellene. 
+====
+
+Hvis du har behov for å oppdatere noen av modellene i modellregisteret, må du også
+
+.installere og konfigurere *SVN*
+[%collapsible]
+====
+include::tilgangtilmodellregisteret.adoc[]
+====
+
+.sette opp *versjonskontroll i EA*
+[%collapsible]
+====
+include::konfigurereTilgangFraEAtilSVN.adoc[]
+====
+
+//====
+
+=== Verktøy for modelldokumentasjon
+
+Produktspesifikasjonen bør publiseres som html.
+Du kan oppnå dette ved å skrive spesifikasjonen i AsciiDoc-format, og konvertere til html-format.
+
+.Verktøy for å lage modelldokumentajon i html-format 
+[%collapsible]
+====
+
+Se se xref:https://www.geonorge.no/globalassets/geonorge2/standardisering/veiledere/asciidocveileder.html[veileder for bruk av Asciidoc] for installasjon og bruk av programvare for Asciidoc.
+
+ For installasjon og bruk av AsciiDocFX og AsciiDoctor, se xref:https://www.geonorge.no/globalassets/geonorge2/standardisering/veiledere/asciidocveileder.html[veileder for bruk av Asciidoc] for installasjon av programvare og 
+
+
+Et innebygget skript i EA vil generere modelldokumentasjon i AsciiDoc-format, som du kan inkludere i produktspesifikasjonen. Skriptet følger med den ferdigkonfigurerte prosjektfila for modellregisteret, men kan også lastes ned fra github.
+====
