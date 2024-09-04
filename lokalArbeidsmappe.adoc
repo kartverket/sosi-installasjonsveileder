@@ -1,0 +1,20 @@
+
+Enterprise Architect kommuniserer med SOSI modellregister ved hjelp av en lokal arbeidsmappe som er kontrollert av TortoiseSVN. Du kan legge denne arbeidmappa hvor du vil, men i denne veiledningen er det lagt til grunn at den er *C:\SOSI*. 
+
+* Opprett C:\SOSI som en ny mappe
+* Høyreklikk på mappa, velg *SVN Checkout* og fyll inn:
+
+** *URL of repository:* skal være *\https://sosi.geonorge.no/svn/SOSI*
+** *Checkout directory* skal være *C:\SOSI*
+
+.Se skjermbilde med utfyllt oppsett for SVN checkout
+[%collapsible]
+======
+image::TortoiseSVN2.png[Placeholder2]
+======
+
+* Legg deretter inn og lagre ditt tildelte brukernavn og passord (ved førstegangs oppsett). Husk å ta vare på dette til neste gang du skal konfigurere.
+
+* Til slutt vil TortoiseSVN sjekke ut en lokal kopi av modellregisteret. Dette vil skape en lokal kopi med mange arbeidsfiler på C:\SOSI.
+
+*NB! Du må aldri lagre noen andre filer i mappen C:\SOSI - den er forbeholdt filer som SVN benytter.*

@@ -1,0 +1,8 @@
+SOSI-modellregister er passordbeskyttet. 
+
+Dersom du har behov for å redigere UML-modeller i SOSI-modellregister, trenger du en egen brukerkonto med skrivetilgang. Dette gjelder de som er editor for et fagområde eller som har behov for å lage UML-modeller for sine egne produktspesifikasjoner. 
+
+Send e-post til mailto:standardiseringssekretariatet@kartverket.no[Standardiseringssekretariatet] og oppgi hvilket behov du har. + 
+Standardiseringssekretariatet vil tildele deg en brukerkonto med tilgang til de modellene du trenger å redigere. Brukerkontoen er personlig og er knyttet til den virksomheten du tilhører. Brukernavn og passord som du får oppgitt må du selv ta vare på.  
+
+//Lesetilgang kan oppnås med brukernavn og passord *'sosi'*.

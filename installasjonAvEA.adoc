@@ -1,6 +1,8 @@
 
 == Installasjon og konfigrasjon av Enterprise Architect
 
+For å jobbe med UML-modeller trenger du Enterprise Architect (EA).
+
 .Velg 64-bits utgaven av EA - versjon 16
 [%collapsible]
 ====
@@ -16,95 +18,11 @@ Ta kontakt med IT-support i din virksomhet for å laste ned og installere EA i h
 // Vi anbefaler EA Corporate edition hvis du har behov for å kjøre script.
 ====
 
-=== Konfigurasjonsinnstillinger
-
-Når en ny installasjon av EA er på plass, vil konfigurasjonen av EA gjerne gå tilbake til standardinnstillingene. Disse må da settes på nytt.
 
 
-.Hvor finner jeg konfigurasjonsinnstillingene?
-[%collapsible]
-=====
-Konfigurasjonsinnstillingene kan endres ved å inn på Preferences:  
-
-* Under *Start* velg *Preferences* og *Preferences...*
-
-.Konfigurasjonsmenyen i EA
-image::Preferences.png[figuren viser konfigurasjonsmulighetene i EA]
-
-* Her kan du velge å endre mange av konfigurasjonsinnstillingene. +
-Se under for en oversikt over konfigurasjoner vi mener er nødvendig å endre.
-
-* Merk at endringene ikke nødvendigvis vil bli satt i verk før du starter EA på nytt.
-=====
-
-===== Hvilke konfigurasjoner bør jeg endre?
-
-.Bruk UTF-8 som tegnsett
-[%collapsible]
-=====
-For de aller fleste brukstilfellene er det nødvendig å konfiguere EA til å bruke utf-8 som tegnsett.
-
-* Velg *XML Specifications* i konfigurasjonsmenyen
-* Sett *Code Page* til *utf-8*, som vist under.
+include::konfigurasjonAvEA.adoc[]
 
 
-.Skjermbilde for konfigurasjon av tegnsettet
-image::utf8.png[figuren viser feltet der du skal skrive inn teksten utf-8]
+include::tilleggsfunksjonerTilEA.adoc[]
 
-
-=====
-
-.Ta kontroll på rekkefølgen av egenskaper i klasser.
-[%collapsible]
-=====
-En nyinstallert EA vil være konfigurert til å vise attributtene i alfabetisk rekkefølge. Siden det i realiseringer som GML er nødvendig å holde en fast rekkefølge, må brukeren kunne ha kontroll på rekkefølgen.
-
-* Velg *Objects* i konfigurasjonsmenyen
-* Ta vekk haken ved *Sort Features Alphabetically*.
-=====
-
-.Bruk høy oppløsning på figurene i dokumentasjonen.
-[%collapsible]
-=====
-Diagrammer og figurer bør ha høyest mulig oppløsning i dokumentasjonen av modellen.
-
-* Velg *Diagram* i konfigurasjonsmenyen
-* Sett *Scale Saved Bitmaps* til *400%*.
-=====
-
-
-
-=== Tilleggsfunksjoner til EA
-
-Avhengig av hvordan modellene skal brukes, vil du ha behov for å installere noen tilleggsfunksjoner til EA. 
-// Nederfor finner du lenker til disse tilleggene.
-
-For å installere tilleggene må du først sørge for at EA er lukket. Når du starter opp igjen EA etter installasjonen vil tilleggene være tilgjengelige.
-
-//.SOSI Model Validation Add-In
-.*SOSI Model Validation* for å validere UML-modeller
-[%collapsible]
-====
-SOSI Model Validation hjelper deg å validere en UML-modell. Valideringen kontrollerer om modellen er i henhold til de krav og anbefalinger som er gitt i standarden https://register.geonorge.no/standarder/sosi/del-1-generell-del/regler-for-uml-modellering[Regler for UML-modellering (register.geonorge.no)].
-
-https://register.geonorge.no/filer/uml-verkt%C3%B8y/sosi-model-validation-64-bit[Last ned SOSI model validation fra register.geonorge.no]
-====
-
-//.ShapeChange Add-In
-.*ShapeChange Add-In* for realisering i GML-format
-[%collapsible]
-====
-Når en UML-modell skal realiseres i GML-format, bruker du ShapeChange for å generere et GML-skjema for modellen.
-
-https://register.geonorge.no/filer/uml-verkt%C3%B8y/shapechange-add-in-64-bit[Last ned ShapeChange Add-In fra register.geonorge.no]
-====
-
-//.SOSI plugin
-.*SOSI plugin* for realisering i SOSI-format
-[%collapsible]
-====
-Dersom en UML-modell skal realiseres i SOSI-format, trenger du dette tillegget for å generere definisjonsfiler for SOSI-kontroll. 
-
-https://register.geonorge.no/filer/uml-verktøy/sosi-plugin-64-bit[Last ned SOSI plugin fra register.geonorge.no]
-====
 

@@ -1,4 +1,6 @@
-
+//== Overskrift
+Bla bla
+////
 //Lese- og skrivetilgang 
 .Redigeringstilgang krever brukernavn og passord
 [%collapsible]
@@ -13,6 +15,10 @@ Send e-post til mailto:standardiseringssekretariatet@kartverket.no[Standardiseri
 Standardiseringssekretariatet vil tildele deg en brukerkonto med tilgang til de modellene du trenger å redigere. Brukerkontoen er personlig og er knyttet til den virksomheten du tilhører. Brukernavn og passord som du får oppgitt må du selv ta vare på. 
 ====
 
+////
+.Nytt prosjekt
+image::EANewProject7.png[Nytt prosjekt]
+
 .Installasjon av TortoiseSVN
 [%collapsible]
 ====
@@ -24,8 +30,10 @@ TortoiseSVN kan lastes ned fra https://tortoisesvn.net/downloads.html
 ** For *Custom Setup* :
 *** Sett *command line client tools* til _Entire feature will be installd on local hard drive_. 
 
+rhr
+
 .Custum setup som vil inkludere kommandlinjeklienten i instllasjonen
-image::TortoiseSVNinstall3.png[TortoiseSVNinstall3]
+image::TortoiseSVNinstall3.png[Tortoise Custum setup]
 
 
 * Noter deg hvilken mappe _svn.exe_ blir installert på. + 

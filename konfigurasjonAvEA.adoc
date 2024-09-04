@@ -1,0 +1,60 @@
+=== Konfigurasjonsinnstillinger
+
+Når en ny installasjon av EA er på plass, vil konfigurasjonen av EA gjerne gå tilbake til standardinnstillingene. Disse må da settes på nytt.
+
+
+.Gå inn på menyen for konfigurasjonsinnstillinger
+[%collapsible]
+====
+
+* Under *Start* velg *Preferences* og *Preferences...*
+
+.Se konfigurasjonsmenyen i EA
+[%collapsible]
+=======
+image::Preferences.png[figuren viser konfigurasjonsmulighetene i EA]
+=======
+====
+
+.Endre nødvendige konfigurasjonsinnstillinger
+[%collapsible]
+====
+
+.Bruk UTF-8 som tegnsett
+[%collapsible]
+=====
+For de aller fleste brukstilfellene er det nødvendig å konfiguere EA til å bruke utf-8 som tegnsett.
+
+* Velg *XML Specifications* i konfigurasjonsmenyen
+* Sett *Code Page* til *utf-8*, som vist under.
+
+
+.Se skjermbilde for konfigurasjon av tegnsettet
+[%collapsible]
+=======
+image::utf8.png[figuren viser feltet der du skal skrive inn teksten utf-8]
+=======
+
+=====
+
+.Ta kontroll på rekkefølgen av egenskaper i klasser.
+[%collapsible]
+=====
+En nyinstallert EA vil være konfigurert til å vise attributtene i alfabetisk rekkefølge. Siden det i realiseringer som GML er nødvendig å holde en fast rekkefølge, må brukeren kunne ha kontroll på rekkefølgen.
+
+* Velg *Objects* i konfigurasjonsmenyen
+* Ta vekk haken ved *Sort Features Alphabetically*.
+=====
+
+.Bruk høy oppløsning på figurene i dokumentasjonen.
+[%collapsible]
+=====
+Diagrammer og figurer bør ha høyest mulig oppløsning i dokumentasjonen av modellen.
+
+* Velg *Diagram* i konfigurasjonsmenyen
+* Sett *Scale Saved Bitmaps* til *400%*.
+=====
+
+====
+
+* Merk at endringene ikke nødvendigvis vil bli satt i verk før du starter EA på nytt.
