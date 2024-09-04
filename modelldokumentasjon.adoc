@@ -1,26 +1,4 @@
-:imagesdir: img/
 
-= Installasjon av programvare for arbeid med UML
-Standardiseringssekretariatet <standardiseringssekretariatet@kartverket.no>
-Versjon 3.1
-
-//Versjon 3.0alfa
- 
-//Denne veilederen erstatter installasjonveileder for EA 15 og tidligere, som kan finnes på stien: https://sosi.geonorge.no/veiledere/installasjonsveileder
-
-Denne veilederen gir en oversikt over installasjon av verktøy og programvare for arbeid med UML-modeller i SOSI-modellregister. +
-Andre veiledere kan du finne på https://www.geonorge.no/verktoy/verktoy-for-produktspesifikasjon/[sidene for verktøy og veiledere på geonorge.no].
-
-
-include::installasjonAvEA.adoc[]
-
-
-include::SOSI-modellregister.adoc[]
-
-
-include::modelldokumentasjon.adoc[]
-
-////
 == Verktøy for modelldokumentasjon
 
 Produktspesifikasjonen bør publiseres som html.
@@ -37,5 +15,3 @@ Se se xref:https://www.geonorge.no/globalassets/geonorge2/standardisering/veiled
 
 Et innebygget skript i EA vil generere modelldokumentasjon i AsciiDoc-format, som du kan inkludere i produktspesifikasjonen. Skriptet følger med den ferdigkonfigurerte prosjektfila for modellregisteret, men kan også lastes ned fra github.
 ====
-
-////

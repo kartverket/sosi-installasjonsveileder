@@ -6,7 +6,7 @@ Avhengig av hvordan modellene skal brukes, vil du ha behov for å installere noe
 
 * Avslutt EA
 
-.Installer tilleggsfunksjoner
+.Velg og installer tilleggsfunksjoner
 [%collapsible]
 =====
 //.SOSI Model Validation Add-In
