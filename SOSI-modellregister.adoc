@@ -1,6 +1,6 @@
 == SOSI-modellregister
 
-EA lagrer modellene i en lokal prosjektfil. Når du skal jobbe med modeller i modelregisteret trenger du å skaffe deg en prosjektfil som inneholder disse modellene.
+EA lagrer modellene i en lokal prosjektfil. Når du skal jobbe med modeller i modelregisteret, trenger du å skaffe deg en prosjektfil som inneholder disse modellene.
 
 .Last ned EA prosjektfil med hele SOSI modellregister
 [%collapsible]
