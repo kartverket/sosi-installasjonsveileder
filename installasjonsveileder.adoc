@@ -5,8 +5,11 @@ Standardiseringssekretariatet <standardiseringssekretariatet@kartverket.no>
 Versjon 3.1
 
 //Versjon 3.0alfa
- 
-Denne veilederen erstatter https://sosi.geonorge.no/veiledere/installasjonsveileder[installasjonveileder for EA 15 og tidligere versjoner]
+
+// Lenka peker ikke til EA15 men til det vi gjorde i Sprint 2 i juni/juli
+// Denne veilederen erstatter https://sosi.geonorge.no/veiledere/installasjonsveileder[installasjonveileder for EA 15 og tidligere versjoner]
+
+Denne veilederen erstatter installasjonveileder for EA 15 og tidligere versjoner.
 
 Veilederen gir en oversikt over installasjon av verktøy og programvare for arbeid med UML-modeller i SOSI-modellregister. +
 Andre veiledere kan du finne på https://www.geonorge.no/verktoy/verktoy-for-produktspesifikasjon/[sidene for verktøy og veiledere på geonorge.no].

@@ -4,14 +4,14 @@
 Produktspesifikasjonen bør publiseres som html.
 Du kan oppnå dette ved å skrive spesifikasjonen i AsciiDoc-format, og konvertere til html-format.
 
-.Verktøy for å lage modelldokumentajon i html-format 
+.Verktøy for å skrive produktspesifikasjon i html-format 
 [%collapsible]
 ====
 
 Se se xref:https://www.geonorge.no/globalassets/geonorge2/standardisering/veiledere/asciidocveileder.html[veileder for bruk av Asciidoc] for installasjon og bruk av programvare for Asciidoc.
 
- For installasjon og bruk av AsciiDocFX og AsciiDoctor, se xref:https://www.geonorge.no/globalassets/geonorge2/standardisering/veiledere/asciidocveileder.html[veileder for bruk av Asciidoc] for installasjon av programvare og 
+// For installasjon og bruk av AsciiDocFX og AsciiDoctor, se xref:https://www.geonorge.no/globalassets/geonorge2/standardisering/veiledere/asciidocveileder.html[veileder for bruk av Asciidoc] for installasjon av programvare og 
 
+====
 
 Et innebygget skript i EA vil generere modelldokumentasjon i AsciiDoc-format, som du kan inkludere i produktspesifikasjonen. Skriptet følger med den ferdigkonfigurerte prosjektfila for modellregisteret, men kan også lastes ned fra github.
-====
