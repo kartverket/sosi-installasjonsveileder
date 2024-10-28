@@ -9,29 +9,3 @@ spec:
   type: "documentation"
   lifecycle: "production"
   owner: "standardisering"
----
-apiVersion: "backstage.io/v1alpha1"
-kind: "Group"
-metadata:
-  name: "security_champion_sosi-installasjonsveileder"
-  title: "Security Champion sosi-installasjonsveileder"
-spec:
-  type: "security_champion"
-  parent: "it_security_champions"
-  members:
-  - "toreJohnsen"
-  children:
-  - "resource:sosi-installasjonsveileder"
----
-apiVersion: "backstage.io/v1alpha1"
-kind: "Resource"
-metadata:
-  name: "sosi-installasjonsveileder"
-  links:
-  - url: "https://github.com/kartverket/sosi-installasjonsveileder"
-    title: "sosi-installasjonsveileder på GitHub"
-spec:
-  type: "repo"
-  owner: "security_champion_sosi-installasjonsveileder"
-  dependencyOf:
-  - "component:sosi-installasjonsveileder"
