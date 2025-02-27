@@ -1,8 +1,8 @@
 == SOSI-modellregister
 
-EA lagrer modellene i en lokal prosjektfil. Når du skal jobbe med modeller i modelregisteret, trenger du å skaffe deg en prosjektfil som inneholder disse modellene.
+EA lagrer modellene i en lokal prosjektfil. For å kunne jobbe med modeller i modelregisteret, trenger du å skaffe deg en prosjektfil som inneholder disse modellene.
 
-.Last ned EA prosjektfil med hele SOSI modellregister
+.Last ned EA prosjektfil med SOSI modellregister
 [%collapsible]
 ====
 For å arbeide med UML-modeller i SOSI modellregister anbefaler vi å https://sosi.geonorge.no/modellfiler/sosi_modellregister.qea[laste ned en tilrettelagt prosjektfil (sosi_modellregister.qea) fra geonorge.no ]. + 
@@ -12,11 +12,8 @@ Denne fila kan leses og brukes direkte dersom du bare har behov for å lese mode
 
 ====
 
-Hvis du har behov for å oppdatere noen av modellene i modellregisteret, må du også utføre disse stegene:
-
-.Installer og konfigurer *SVN*
-[%collapsible]
-====
+Modellregisteret er versjons- og tilgangskontrollert vha. SVN. + 
+For å kunne oppdatere noen av modellene i modellregisteret, må du også utføre disse stegene:
 
 .Få en brukerkonto til modellregisteret
 [%collapsible]
@@ -24,6 +21,9 @@ Hvis du har behov for å oppdatere noen av modellene i modellregisteret, må du 
 include::brukerkontoModelregisteret.adoc[]
 =====
 
+.Installer og konfigurer *SVN*
+[%collapsible]
+====
 
 .Installer TortoiseSVN
 [%collapsible]
@@ -31,13 +31,11 @@ include::brukerkontoModelregisteret.adoc[]
 include::installasjonSVN.adoc[]
 =====
 
-
 .Sett opp en lokal arbeidsmappe
 [%collapsible]
 =====
 include::lokalArbeidsmappe.adoc[]
 =====
-
 
 ====
 

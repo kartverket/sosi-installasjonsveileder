@@ -1,9 +1,8 @@
 === Konfigurasjonsinnstillinger
 
-//Når en ny installasjon av EA er på plass, vil konfigurasjonen av EA gjerne gå tilbake til standardinnstillingene. Disse må da settes på nytt.
 Når EA er installert, vil den være konfigurert i henhold til standardinstillingne. Dette gjelder også når du har oppgradert til en ny versjon.
 
-Der er derfor nødvendig å endre  på konfigurasjonen av EA:
+Det er derfor nødvendig å endre  på konfigurasjonen av EA:
 
 .Gå inn på menyen for konfigurasjonsinnstillinger
 [%collapsible]
@@ -16,9 +15,10 @@ Der er derfor nødvendig å endre  på konfigurasjonen av EA:
 =======
 image::Preferences.png[figuren viser konfigurasjonsmulighetene i EA]
 =======
+
 ====
 
-.Endre nødvendige konfigurasjonsinnstillinger
+.Utfør nødvendige konfigurasjonsendringer
 [%collapsible]
 ====
 

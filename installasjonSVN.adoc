@@ -9,7 +9,6 @@ Her trenger du å installere kommandolinjeklienten for at EA skal fungere mot SO
 
 ** Noter deg hvilken mappe _svn.exe_ blir installert på. + 
 (Ved standard installasjon vil denne være C:\Program Files\TortoiseSVN\bin) 
-// Kommandolinjeklienten  _svn.exe_ er nødvendig for at EA skal fungere mot SOSI-modellregister. 
 
 .Se skjermbilde fra installasjonen av SVN
 [%collapsible]

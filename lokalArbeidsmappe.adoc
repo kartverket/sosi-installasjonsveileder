@@ -18,3 +18,4 @@ image::TortoiseSVN2.png[Placeholder2]
 * Til slutt vil TortoiseSVN sjekke ut en lokal kopi av modellregisteret. Dette vil skape en lokal kopi med mange arbeidsfiler på C:\SOSI.
 
 *NB! Du må aldri lagre noen andre filer i mappen C:\SOSI - den er forbeholdt filer som SVN benytter.*
+

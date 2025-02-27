@@ -1,7 +1,8 @@
 
 == Installasjon og konfigrasjon av Enterprise Architect
 
-For å jobbe med UML-modeller trenger du Enterprise Architect (EA).
+For å jobbe med UML-modeller trenger du Enterprise Architect (EA). + 
+Vi anbefaler 64-bits-utgaven av EA, versjon 16 eller nyere.
 
 ////
 .Velg 64-bits utgaven av EA - versjon 16
@@ -18,7 +19,7 @@ Versjon 16 av Enterprise Architect (EA) finnes i 64-bits utgave. Denne har mange
 Dersom du har behov for å kjøre skript, trenger du EA Corporate edition
 
 Ta kontakt med IT-support i din virksomhet for å laste ned og installere EA i henhold til virksomhetens policy. 
-// Vi anbefaler EA Corporate edition hvis du har behov for å kjøre script.
+
 ====
 
 
