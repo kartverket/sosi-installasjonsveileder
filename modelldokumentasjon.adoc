@@ -22,7 +22,7 @@ Gå til link:https://asciidocfx.com/[^], last ned og installer siste versjon.
 
 
 ==== Generere modellrapport i adoc
-Et innebygget skript i EA vil generere modelldokumentasjon i AsciiDoc-format, som du kan inkludere i en produktspesifikasjon eller fagområdestandard. 
+Fra EA kan du generere en dokumentasjon av UML-modellen i AsciiDoc-format, som kan inkluderes i hoveddokumentet. 
 
 Skriptet __listAdocFraModell__ følger med den https://sosi.geonorge.no/modellfiler/sosi_modellregister.qea[ferdigkonfigurerte prosjektfila for modellregisteret], men kan også lastes ned fra https://github.com/kartverket/UML-modelleringsskript/blob/master/listAdocFraModell.vbs[github].
 
