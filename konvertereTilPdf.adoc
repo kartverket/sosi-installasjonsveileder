@@ -1,0 +1,21 @@
+==== Verktøy for å generere pdf-filer fra adoc
+[IMPORTANT] 
+=====
+SOSI-standarder skal ikke lenger ha pdf-versjon, kun html.  Det er derfor ikke nødvendig å ha en pdf-generator dersom du skal lage en standard.
+
+Standardiseringssekretariatet kommer ikke til å tilby support for generering av pdf-dokumenter fra AsciiDoc.
+=====
+
+[%collapsible]
+=====
+Dersom det er nødvendig å lage pdf-filer av dokumentene, anbefales det å bruke verktøyet asciidoctor-web-pdf.  
+
+Dette kan lastes ned fra link:https://github.com/Mogztter/asciidoctor-web-pdf/[^]. 
+
+[NOTE] 
+====
+Det finnes også en pdf-generator som heter asciidoctor-pdf, som kan installeres på samme måte som asciidoctor.
+
+Asciidoctor-pdf kan *ikke* generere UU-godkjente dokumenter, og skal derfor ikke brukes for dokumenter som skal publiseres på Kartverkets nettsider, det anbefales derfor å bruke asciidoctor-web-pdf i stedet.
+====
+=====

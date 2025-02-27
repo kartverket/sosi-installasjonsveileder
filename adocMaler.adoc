@@ -1,0 +1,24 @@
+// === Maler for standarder og produktspesifikasjoner
+Maler for standarder og produktspesifikasjonsmaler ligger på Geonorge. + 
+Last ned https://www.geonorge.no/globalassets/geonorge2/standardisering/maler/asciidocmaler.zip[asciidocmaler.zip].
+
+//Zip-fila skal inneholde følgende filer:
+
+.Pakka med maler inneholder:
+[%collapsible]
+====
+* **Produktspesifikasjonsmal.adoc**: Mal for produktspesifikasjoner og standardiserte produktspesifikasjoner
+
+* **Standardmal.adoc**: Mal for standarder
+
+* **Lisensvilkår.adoc**: Lisenstekst for SOSI-standarder (NLOD-lisens)
+
+* **Språk-nb.adoc**: Fil som setter enkelte asciidoc-variable til bokmål
+
+* **Språk-nn.adoc**: Fil som setter enkelte asciidoc-variable til nynorsk
+
+* **modell.adoc**: Fil som kan brukes til modelldokumentasjon.
+
+* **images/epleblomst.jpg**: Eksempelbilde
+
+====

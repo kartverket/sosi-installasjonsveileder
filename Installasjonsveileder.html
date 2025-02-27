@@ -451,8 +451,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Denne veilederen erstatter installasjonveileder for EA 15 og tidligere versjoner.</p>
 </div>
 <div class="paragraph">
-<p>Veilederen gir en oversikt over installasjon av verktøy og programvare for arbeid med UML-modeller i SOSI-modellregister.<br>
-Andre veiledere kan du finne på <a href="https://www.geonorge.no/verktoy/verktoy-for-produktspesifikasjon/">sidene for verktøy og veiledere på geonorge.no</a>.</p>
+<p>Veilederen gir en oversikt over installasjon av verktøy og programvare for arbeid med UML-modeller i SOSI-modellregister.</p>
+</div>
+<div class="paragraph">
+<p>Andre veiledere kan du finne på <a href="https://www.geonorge.no/verktoy/verktoy-for-produktspesifikasjon/">sidene for verktøy og veiledere på geonorge.no</a>.</p>
 </div>
 </div>
 </div>
@@ -460,7 +462,8 @@ Andre veiledere kan du finne på <a href="https://www.geonorge.no/verktoy/verkto
 <h2 id="_installasjon_og_konfigrasjon_av_enterprise_architect">Installasjon og konfigrasjon av Enterprise Architect</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>For å jobbe med UML-modeller trenger du Enterprise Architect (EA).</p>
+<p>For å jobbe med UML-modeller trenger du Enterprise Architect (EA).<br>
+Vi anbefaler 64-bits-utgaven av EA, versjon 16 eller nyere.</p>
 </div>
 <details>
 <summary class="title">Nedlasting og installasjon</summary>
@@ -482,7 +485,7 @@ Andre veiledere kan du finne på <a href="https://www.geonorge.no/verktoy/verkto
 <p>Når EA er installert, vil den være konfigurert i henhold til standardinstillingne. Dette gjelder også når du har oppgradert til en ny versjon.</p>
 </div>
 <div class="paragraph">
-<p>Der er derfor nødvendig å endre  på konfigurasjonen av EA:</p>
+<p>Det er derfor nødvendig å endre  på konfigurasjonen av EA:</p>
 </div>
 <details>
 <summary class="title">Gå inn på menyen for konfigurasjonsinnstillinger</summary>
@@ -507,7 +510,7 @@ Andre veiledere kan du finne på <a href="https://www.geonorge.no/verktoy/verkto
 </div>
 </details>
 <details>
-<summary class="title">Endre nødvendige konfigurasjonsinnstillinger</summary>
+<summary class="title">Utfør nødvendige konfigurasjonsendringer</summary>
 <div class="content">
 <details>
 <summary class="title">Bruk UTF-8 som tegnsett</summary>
@@ -660,10 +663,10 @@ Nå skal tilleggene være tilgjengelige</p>
 <h2 id="_sosi_modellregister">SOSI-modellregister</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>EA lagrer modellene i en lokal prosjektfil. Når du skal jobbe med modeller i modelregisteret, trenger du å skaffe deg en prosjektfil som inneholder disse modellene.</p>
+<p>EA lagrer UML-modellene i en lokal prosjektfil. For å kunne bruke EA til å se på eller jobbe med modeller i modelregisteret, trenger du en prosjektfil med disse modellene.</p>
 </div>
 <details>
-<summary class="title">Last ned EA prosjektfil med hele SOSI modellregister</summary>
+<summary class="title">Last ned EA prosjektfil med SOSI modellregister</summary>
 <div class="content">
 <div class="paragraph">
 <p>For å arbeide med UML-modeller i SOSI modellregister anbefaler vi å <a href="https://sosi.geonorge.no/modellfiler/sosi_modellregister.qea">laste ned en tilrettelagt prosjektfil (sosi_modellregister.qea) fra geonorge.no </a>.<br>
@@ -675,11 +678,9 @@ I tillegg til en oppdatert versjon av hele modellregisteret, inneholder denne fi
 </div>
 </details>
 <div class="paragraph">
-<p>Hvis du har behov for å oppdatere noen av modellene i modellregisteret, må du også utføre disse stegene:</p>
+<p>Modellregisteret er versjons- og tilgangskontrollert vha. SVN.<br>
+For å kunne oppdatere noen av modellene i modellregisteret, må du også utføre disse stegene:</p>
 </div>
-<details>
-<summary class="title">Installer og konfigurer <strong>SVN</strong></summary>
-<div class="content">
 <details>
 <summary class="title">Få en brukerkonto til modellregisteret</summary>
 <div class="content">
@@ -695,6 +696,9 @@ Standardiseringssekretariatet vil tildele deg en brukerkonto med tilgang til de 
 </div>
 </div>
 </details>
+<details>
+<summary class="title">Installer og konfigurer <strong>SVN</strong></summary>
+<div class="content">
 <details>
 <summary class="title">Installer TortoiseSVN</summary>
 <div class="content">
@@ -796,7 +800,7 @@ Her trenger du å installere kommandolinjeklienten for at EA skal fungere mot SO
 <summary class="title">Sett opp <strong>versjonskontroll i EA</strong></summary>
 <div class="content">
 <div class="paragraph">
-<p>For å få tilgang fra EA til modellregisteret må du konfigurere versjonskontrollinstillingene (<strong>Version Control Settings</strong>)</p>
+<p>For å få tilgang fra EA til modellregisteret må du konfigurere versjonskontrollinstillingene (<strong>Version Control Settings</strong>) i EA.</p>
 </div>
 <div class="ulist">
 <ul>
@@ -881,26 +885,216 @@ Dette vil forebygge tidsavbrudd når man jobber mot modellregisteret.</p>
 <h2 id="_verktøy_for_modelldokumentasjon">Verktøy for modelldokumentasjon</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Produktspesifikasjonen bør publiseres som html.
-Du kan oppnå dette ved å skrive spesifikasjonen i AsciiDoc-format, og konvertere til html-format.</p>
+<p>En UML-modell vil typisk være en del av produktspesifikasjon eller en fagområdestandard.<br>
+Anbefalt publiseringsformat for både produktspesifikasjoner og standarder er <strong>html</strong>.
+Du kan oppnå dette ved å først skrive spesifikasjonen i AsciiDoc-format, som deretter konverterer til html-format.</p>
+</div>
+<div class="sect2">
+<h3 id="_verktøy_for_å_generere_filer_i_asciidoc_format">Verktøy for å generere filer i AsciiDoc-format</h3>
+<div class="sect3">
+<h4 id="_maler_for_standarder_og_produktspesifikasjoner">Maler for standarder og produktspesifikasjoner</h4>
+<div class="paragraph">
+<p>Maler for standarder og produktspesifikasjonsmaler ligger på Geonorge.<br>
+Last ned <a href="https://www.geonorge.no/globalassets/geonorge2/standardisering/maler/asciidocmaler.zip">asciidocmaler.zip</a>.</p>
 </div>
 <details>
-<summary class="title">Verktøy for å skrive produktspesifikasjon i html-format</summary>
+<summary class="title">Pakka med maler inneholder:</summary>
 <div class="content">
-<div class="paragraph">
-<p>Se se <a href="https://www.geonorge.no/globalassets/geonorge2/standardisering/veiledere/asciidocveileder.html">veileder for bruk av Asciidoc</a> for installasjon og bruk av programvare for Asciidoc.</p>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Produktspesifikasjonsmal.adoc</strong>: Mal for produktspesifikasjoner og standardiserte produktspesifikasjoner</p>
+</li>
+<li>
+<p><strong>Standardmal.adoc</strong>: Mal for standarder</p>
+</li>
+<li>
+<p><strong>Lisensvilkår.adoc</strong>: Lisenstekst for SOSI-standarder (NLOD-lisens)</p>
+</li>
+<li>
+<p><strong>Språk-nb.adoc</strong>: Fil som setter enkelte asciidoc-variable til bokmål</p>
+</li>
+<li>
+<p><strong>Språk-nn.adoc</strong>: Fil som setter enkelte asciidoc-variable til nynorsk</p>
+</li>
+<li>
+<p><strong>modell.adoc</strong>: Fil som kan brukes til modelldokumentasjon.</p>
+</li>
+<li>
+<p><strong>images/epleblomst.jpg</strong>: Eksempelbilde</p>
+</li>
+</ul>
 </div>
 </div>
 </details>
+</div>
+<div class="sect3">
+<h4 id="_teksteditor_for_asciidoc_adoc">Teksteditor for Asciidoc (adoc)</h4>
 <div class="paragraph">
-<p>Et innebygget skript i EA vil generere modelldokumentasjon i AsciiDoc-format, som du kan inkludere i produktspesifikasjonen. Skriptet følger med den ferdigkonfigurerte prosjektfila for modellregisteret, men kan også lastes ned fra github.</p>
+<p>Selv om du kan skrive adoc-tekst ved hjelp av teksteditorer som notepad, notepad++, emacs o.l. kan det være lettere å bruke <strong>AsciidocFX</strong>. Dette verktøyet har funksjonalitet til å gi et samtidig inntrykk av hvordan teksten vil se ut i det ferdige dokumentet.</p>
+</div>
+<details>
+<summary class="title">Installasjon av AsciidocFX</summary>
+<div class="content">
+<div class="paragraph">
+<p>Gå til <a href="https://asciidocfx.com/" class="bare" target="_blank" rel="noopener">https://asciidocfx.com/</a>, last ned og installer siste versjon.</p>
+</div>
+</div>
+</details>
+</div>
+<div class="sect3">
+<h4 id="_generere_modellrapport_i_adoc">Generere modellrapport i adoc</h4>
+<div class="paragraph">
+<p>Et innebygget skript i EA vil generere modelldokumentasjon i AsciiDoc-format, som du kan inkludere i en produktspesifikasjon eller fagområdestandard.</p>
+</div>
+<div class="paragraph">
+<p>Skriptet <em>listAdocFraModell</em> følger med den <a href="https://sosi.geonorge.no/modellfiler/sosi_modellregister.qea">ferdigkonfigurerte prosjektfila for modellregisteret</a>, men kan også lastes ned fra <a href="https://github.com/kartverket/UML-modelleringsskript/blob/master/listAdocFraModell.vbs">github</a>.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_verktøy_for_å_konvertere_til_publiseringsformat">Verktøy for å konvertere til publiseringsformat</h3>
+<div class="sect3">
+<h4 id="_verktøy_for_å_generere_html_filer_fra_adoc">Verktøy for å generere html-filer fra adoc</h4>
+<div class="paragraph">
+<p>Verktøyet for å generere html-filer fra adoc-filer er Asciidoctor.</p>
+</div>
+<details>
+<summary class="title">Installasjon av Asciidoctor</summary>
+<div class="content">
+<div class="paragraph">
+<p>Du kan installere Asciidoctor på PCen din ved først å installere Ruby, og deretter bruke dette for å installere Asciidoctor. Du kan også bruke Ruby til å oppgradere eller utvide Asciidoctor.</p>
+</div>
+<details>
+<summary class="title">Installer Ruby</summary>
+<div class="content">
+<div class="paragraph">
+<p>Gå til <a href="https://rubyinstaller.org/" class="bare" target="_blank" rel="noopener">https://rubyinstaller.org/</a> og installerer siste versjon av Ruby.</p>
+</div>
+</div>
+</details>
+<details>
+<summary class="title">Installere Asciidoctor</summary>
+<div class="content">
+<div class="paragraph">
+<p>Åpne et kommandovindu og skriv</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>gem install asciidoctor</pre>
+</div>
+</div>
+</div>
+</details>
+<details>
+<summary class="title">Oppdatere Asciidoctor</summary>
+<div class="content">
+<div class="paragraph">
+<p>Våre maler fungerer ikke som de skal sammen med eldre versjoner av AsciiDoctor. Dette skyldes forandringer i enkelte variabelnavn i AsciiDoctor.</p>
+</div>
+<div class="paragraph">
+<p>Du kan oppgradere AsciiDoctor med kommandoen</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>gem update asciidoctor</pre>
+</div>
+</div>
+</div>
+</details>
+<details>
+<summary class="title">Utvidelse av Asciidoctor: Rouge</summary>
+<div class="content">
+<div class="paragraph">
+<p>Dersom du planlegger å inkludere programkode eller skjema i dokumentet, kan det være fornuftig å kunne utheve/farge nøkkelord og strukturer i koden.</p>
+</div>
+<div class="paragraph">
+<p>Dette kan du oppnå ved å installere Rouge.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>gem install rouge</pre>
+</div>
+</div>
+</div>
+</details>
+</div>
+</details>
+<details>
+<summary class="title">Bruk av Asciidoctor</summary>
+<div class="content">
+<div class="paragraph">
+<p>Asciidoctor kjøres fra kommandolinja i den katalogen der hoveddokumentet ligger.</p>
+</div>
+<div class="paragraph">
+<p>Kommandoen</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>asciidoctor mittdokument.adoc</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>vil generere filen mittdokument.html fra dokumentet.</p>
+</div>
+</div>
+</details>
+</div>
+<div class="sect3">
+<h4 id="_verktøy_for_å_generere_pdf_filer_fra_adoc">Verktøy for å generere pdf-filer fra adoc</h4>
+<div class="admonitionblock important">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Important</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>SOSI-standarder skal ikke lenger ha pdf-versjon, kun html.  Det er derfor ikke nødvendig å ha en pdf-generator dersom du skal lage en standard.</p>
+</div>
+<div class="paragraph">
+<p>Standardiseringssekretariatet kommer ikke til å tilby support for generering av pdf-dokumenter fra AsciiDoc.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<details>
+<summary class="title">Details</summary>
+<div class="content">
+<div class="paragraph">
+<p>Dersom det er nødvendig å lage pdf-filer av dokumentene, anbefales det å bruke verktøyet asciidoctor-web-pdf.</p>
+</div>
+<div class="paragraph">
+<p>Dette kan lastes ned fra <a href="https://github.com/Mogztter/asciidoctor-web-pdf/" class="bare" target="_blank" rel="noopener">https://github.com/Mogztter/asciidoctor-web-pdf/</a>.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+<div class="paragraph">
+<p>Det finnes også en pdf-generator som heter asciidoctor-pdf, som kan installeres på samme måte som asciidoctor.</p>
+</div>
+<div class="paragraph">
+<p>Asciidoctor-pdf kan <strong>ikke</strong> generere UU-godkjente dokumenter, og skal derfor ikke brukes for dokumenter som skal publiseres på Kartverkets nettsider, det anbefales derfor å bruke asciidoctor-web-pdf i stedet.</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</details>
+</div>
 </div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-09-09 12:32:24 +0200
+Last updated 2025-02-27 11:54:23 +0100
 </div>
 </div>
 </body>

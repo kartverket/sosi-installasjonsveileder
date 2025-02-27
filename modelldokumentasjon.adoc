@@ -1,17 +1,35 @@
 
 == Verktøy for modelldokumentasjon
 
-Produktspesifikasjonen bør publiseres som html.
-Du kan oppnå dette ved å skrive spesifikasjonen i AsciiDoc-format, og konvertere til html-format.
+En UML-modell vil typisk være en del av produktspesifikasjon eller en fagområdestandard. + 
+Anbefalt publiseringsformat for både produktspesifikasjoner og standarder er *html*.
+Du kan oppnå dette ved å først skrive spesifikasjonen i AsciiDoc-format, som deretter konverterer til html-format.
 
-.Verktøy for å skrive produktspesifikasjon i html-format 
+=== Verktøy for å generere filer i AsciiDoc-format
+
+==== Maler for standarder og produktspesifikasjoner
+include::adocMaler.adoc[]
+
+==== Teksteditor for Asciidoc (adoc)
+Selv om du kan skrive adoc-tekst ved hjelp av teksteditorer som notepad, notepad++, emacs o.l. kan det være lettere å bruke *AsciidocFX*. Dette verktøyet har funksjonalitet til å gi et samtidig inntrykk av hvordan teksten vil se ut i det ferdige dokumentet.
+
+.Installasjon av AsciidocFX
 [%collapsible]
 ====
-
-Se se xref:https://www.geonorge.no/globalassets/geonorge2/standardisering/veiledere/asciidocveileder.html[veileder for bruk av Asciidoc] for installasjon og bruk av programvare for Asciidoc.
-
-// For installasjon og bruk av AsciiDocFX og AsciiDoctor, se xref:https://www.geonorge.no/globalassets/geonorge2/standardisering/veiledere/asciidocveileder.html[veileder for bruk av Asciidoc] for installasjon av programvare og 
-
+Gå til link:https://asciidocfx.com/[^], last ned og installer siste versjon.
+// Hvordan veit vi om denne er sikker ??
 ====
 
-Et innebygget skript i EA vil generere modelldokumentasjon i AsciiDoc-format, som du kan inkludere i produktspesifikasjonen. Skriptet følger med den ferdigkonfigurerte prosjektfila for modellregisteret, men kan også lastes ned fra github.
+
+==== Generere modellrapport i adoc
+Et innebygget skript i EA vil generere modelldokumentasjon i AsciiDoc-format, som du kan inkludere i en produktspesifikasjon eller fagområdestandard. 
+
+Skriptet __listAdocFraModell__ følger med den https://sosi.geonorge.no/modellfiler/sosi_modellregister.qea[ferdigkonfigurerte prosjektfila for modellregisteret], men kan også lastes ned fra https://github.com/kartverket/UML-modelleringsskript/blob/master/listAdocFraModell.vbs[github].
+
+
+=== Verktøy for å konvertere til publiseringsformat
+
+include::konvertereTilHtml.adoc[]
+
+include::konvertereTilPdf.adoc[]
+

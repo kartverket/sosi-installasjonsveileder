@@ -1,6 +1,6 @@
 :imagesdir: img/
 
-For å få tilgang fra EA til modellregisteret må du konfigurere versjonskontrollinstillingene (*Version Control Settings*)
+For å få tilgang fra EA til modellregisteret må du konfigurere versjonskontrollinstillingene (*Version Control Settings*) i EA.
  
 * Åpne prosjektfil som skal være kobla til modellregisteret
 
