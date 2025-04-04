@@ -16,8 +16,11 @@ Selv om du kan skrive adoc-tekst ved hjelp av teksteditorer som notepad, notepad
 .Installasjon av AsciidocFX
 [%collapsible]
 ====
-Gå til link:https://asciidocfx.com/[^], last ned og installer siste versjon.
-// Hvordan veit vi om denne er sikker ??
+Gå til link:https://asciidocfx.com/[^], der du vil finne siste versjon.
+
+// For Windows finnes den både som en portabel installasjon og som en installerbar fil //
+* Last ned zip-fila for Windows og pakk den ut der du vil ha den, f.eks som C:/AsciidocFX.
+* Alternativt kan du laste ned exe-filen for Windows, som er en kjørbar installasjonsfil.
 ====
 
 

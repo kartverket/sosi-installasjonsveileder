@@ -10,7 +10,10 @@ Du kan installere Asciidoctor på PCen din ved først å installere Ruby, og der
 .Installer Ruby
 [%collapsible]
 =====
-Gå til link:https://rubyinstaller.org/[^] og installerer siste versjon av Ruby.
+* Gå til nedlastingssiden på link:https://rubyinstaller.org/downloads[rubyinstaller.org^]. + 
+* Last ned den versjonen av Rubi som anbefales. 
+// Det som anbefales er er en stabil versjon med installasjonskit //
+* Installerer den.
 =====
 
 .Installere Asciidoctor
@@ -21,7 +24,7 @@ Gå til link:https://rubyinstaller.org/[^] og installerer siste versjon av Ruby.
  gem install asciidoctor
 =====
 
-.Oppdatere Asciidoctor
+.Oppdatere en eldre versjon av Asciidoctor
 [%collapsible]
 =====
 Våre maler fungerer ikke som de skal sammen med eldre versjoner av AsciiDoctor. Dette skyldes forandringer i enkelte variabelnavn i AsciiDoctor. 
