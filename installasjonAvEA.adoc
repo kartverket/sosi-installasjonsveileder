@@ -1,44 +1,32 @@
-:imagesdir: img/
 
-== Installasjon av Enterprise Architect
+== Installasjon og konfigrasjon av Enterprise Architect
 
-=== Vi bruker 64-bits utgaven av EA versjon 16
+For å jobbe med UML-modeller trenger du Enterprise Architect (EA). + 
+Vi anbefaler 64-bits-utgaven av EA, versjon 16 eller nyere.
 
-Versjon 16 av Enterprise Architect (EA) finnes i 64-bits utgave som har mange store forbedringer. En viktig forbedring er at hele modellregisteret kan lagres i en og samme prosjektfil.
+////
+.Velg 64-bits utgaven av EA - versjon 16
+[%collapsible]
+====
 
-=== Nedlasting og installasjon
-Ta kontakt med IT-support i din virksomhet for å laste ned og installere EA etter gjeldende policy. Vi anbefaler EA Corporate edition hvis du vil kjøre script.
+====
+////
+.Nedlasting og installasjon
+[%collapsible]
+====
+Versjon 16 av Enterprise Architect (EA) finnes i 64-bits utgave. Denne har mange store forbedringer, blant annet at hele modellregisteret kan lagres i en og samme prosjektfil.
 
-=== Nødvendige konfigurasjoner av EA
+Dersom du har behov for å kjøre skript, trenger du EA Corporate edition
 
-==== Tegnsett
+Ta kontakt med IT-support i din virksomhet for å laste ned og installere EA i henhold til virksomhetens policy. 
 
-For de aller fleste brukstilfellene er det nødvendig å konfiguere EA til å bruke utf-8 som tegnsett.
+====
 
-* Under *Start* velg *Preferences* og *Preferences...*
 
-* Velg *XML Specifications*
-** *Code Page* settes til *utf-8*, som vist under.
 
-.Skjermbilde for konfigurasjon av tegnsett
-image::EnterpriseArchitectXML1.png[figuren viser feltet der du skal skrive inn teksten utf-8]
+include::konfigurasjonAvEA.adoc[]
 
-* Endringen trer i kraft når du starter opp EA på nytt.
 
-==== Brukerkontroll av rekkefølge på egenskaper i klasser.
+include::tilleggsfunksjonerTilEA.adoc[]
 
-Etter en ny installasjon er det vanlig at egenskaper sorteres alfabetisk. I realiseringer som GML er fast rekkefølge påkrevet, så brukeren må kunne ha kontroll på rekkefølgen.
 
-* Under *Start* velg *Preferences* og *Preferences...*
-
-* Velg *Objects*
-** Ta vekk haken ved *Sort Features Alphabetically*.
-
-==== Bildeoppløsning ved generering av dokumentasjon.
-
-Diagrammer og figurer bør ha høyest mulig oppløsning i dokumentasjonen.
-
-* Under *Start* velg *Preferences* og *Preferences...*
-
-* Velg *Diagram*
-** *Scale Saved Bitmaps* settes til *400*.

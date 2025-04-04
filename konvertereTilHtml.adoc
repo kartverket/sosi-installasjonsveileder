@@ -1,0 +1,70 @@
+==== Verktøy for å generere html-filer fra adoc
+
+Verktøyet for å generere html-filer fra adoc-filer er Asciidoctor.
+
+.Installasjon av Asciidoctor
+[%collapsible]
+====
+Du kan installere Asciidoctor på PCen din ved først å installere Ruby, og deretter bruke dette for å installere Asciidoctor. Du kan også bruke Ruby til å oppgradere eller utvide Asciidoctor.
+
+.Installer Ruby
+[%collapsible]
+=====
+* Gå til nedlastingssiden på link:https://rubyinstaller.org/downloads[rubyinstaller.org^]. + 
+* Last ned den versjonen av Rubi som anbefales. 
+// Det som anbefales er er en stabil versjon med installasjonskit //
+* Installerer den.
+=====
+
+.Installere Asciidoctor
+[%collapsible]
+=====
+Åpne et kommandovindu og skriv
+
+ gem install asciidoctor
+=====
+
+.Oppdatere en eldre versjon av Asciidoctor
+[%collapsible]
+=====
+Våre maler fungerer ikke som de skal sammen med eldre versjoner av AsciiDoctor. Dette skyldes forandringer i enkelte variabelnavn i AsciiDoctor. 
+
+Du kan oppgradere AsciiDoctor med kommandoen
+
+ gem update asciidoctor 
+=====
+
+.Utvidelse av Asciidoctor: Rouge
+[%collapsible]
+=====
+Dersom du planlegger å inkludere programkode eller skjema i dokumentet, kan det være fornuftig å kunne utheve/farge nøkkelord og strukturer i koden. 
+
+Dette kan du oppnå ved å installere Rouge.
+
+ gem install rouge
+=====
+====
+
+.Bruk av Asciidoctor
+[%collapsible]
+====
+Asciidoctor kjøres fra kommandolinja i den katalogen der hoveddokumentet ligger. 
+
+Kommandoen
+
+ asciidoctor mittdokument.adoc
+
+vil generere filen mittdokument.html fra dokumentet.
+
+////
+Du kan styre navnet på det genererte dokumentet ved å bruke flagget -o.
+
+Kommandoene
+
+ asciidoctor mittdokument.adoc -o index.html
+ asciidoctor -o index.html mittdokument.adoc
+ 
+vil begge generere filen index.html fra dokumentet.
+////
+====
+

@@ -1,22 +1,21 @@
 :imagesdir: img/
 
-==== Konfigurere tilgang til SOSI-modellregister
-Her beskrives hvordan du oppretter eller reparerer tilgangen fra EA til SOSI modellregister.
+For å få tilgang fra EA til modellregisteret må du konfigurere versjonskontrollinstillingene (*Version Control Settings*) i EA.
+ 
+* Åpne prosjektfil som skal være kobla til modellregisteret
 
-* Åpne prosjektfila som skal være kobla til modellregisteret
+// * Dersom du har et oppsett som er mangelfullt, vil du kunne få spørsmål om du vil reparere innstillingene.
+* Velg *Project-VC* under *Settings* i hovedmenyen og få opp *Version Control Settings*
 
-* Gå til versjonskontrollinnstillingene på en av disse to måtene:
-** Dersom du har et oppsett som er mangelfullt, vil du kunne få spørsmål om du vil reparere innstillingene.
-** Eller velg *Project-VC* under *Settings* i hovedmenyen
-
-===== Versjonskontrollinstillinger
-
-* *Model Settings*: sørg for at den midterste og nederste av de 3 boksene er huket av.
+.Se hvordan du fyller ut versjonskontrollinstillingene 
+[%collapsible]
+=====
+* *Model Settings*: sørg for at de to nederste av de 3 boksene er huket av.
 
 * *Configuration Details* 
-** *Unique ID*: *SOSI*  
-** *Type*: *Subversion*.
-** *Working Copy Path:* naviger deg fram til den versjonskontrollerte mappa (C:\SOSI).
+** *Unique ID* skal være *SOSI*  
+** *Type* skal være *Subversion*.
+** *Working Copy Path* skal være *C:\SOSI* (den versjonskontrollerte mappa).
 
 * *Workstation settings:*
 ** *Subversion Exe Path:* kontroller at path-en til SVN-klienten er korrekt. +
@@ -24,12 +23,14 @@ Dersom feltet er tomt, må du navigere deg fram til der du la *svn.exe* da du in
 Ved standard installasjon skal denne ligge under C:\Program Files\TortoiseSVN\bin
 
 ** *VC Time-Out value:* bør endres fra 30 til 60 sekunder. +
-Dette er for å forebygge tidsavbrudd når man jobber mot modellregisteret.
+Dette vil forebygge tidsavbrudd når man jobber mot modellregisteret.
 
-* Kontroller at vinduet samsvarer med bildet under. 
+=====
 
-.Utfyllt konfigurasjon
+.Se skjermbilde av *Version Control Settings* for kontroll av utfyllte innstillinger
+[%collapsible]
+======
 image::EANewProject7.png[Placeholder]
+======
 
 * Klikk på *Save* før du lukker vinduet.
-

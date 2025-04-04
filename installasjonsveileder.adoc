@@ -1,0 +1,22 @@
+:imagesdir: img/
+
+= Installasjon av programvare for arbeid med UML
+Standardiseringssekretariatet <standardiseringssekretariatet@kartverket.no>
+Versjon 3.1
+
+
+Denne veilederen erstatter installasjonveileder for EA 15 og tidligere versjoner.
+
+Veilederen gir en oversikt over installasjon av verktøy og programvare for arbeid med UML-modeller i SOSI-modellregister. 
+
+Andre veiledere kan du finne på https://www.geonorge.no/verktoy/verktoy-for-produktspesifikasjon/[sidene for verktøy og veiledere på geonorge.no].
+
+
+include::installasjonAvEA.adoc[]
+
+
+include::SOSI-modellregister.adoc[]
+
+
+include::modelldokumentasjon.adoc[]
+

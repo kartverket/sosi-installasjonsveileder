@@ -1,0 +1,38 @@
+
+== Verktøy for modelldokumentasjon
+
+En UML-modell vil typisk være en del av produktspesifikasjon eller en fagområdestandard. + 
+Anbefalt publiseringsformat for både produktspesifikasjoner og standarder er *html*.
+Du kan oppnå dette ved å først skrive spesifikasjonen i AsciiDoc-format, som deretter konverterer til html-format.
+
+=== Verktøy for å generere filer i AsciiDoc-format
+
+==== Maler for standarder og produktspesifikasjoner
+include::adocMaler.adoc[]
+
+==== Teksteditor for Asciidoc (adoc)
+Selv om du kan skrive adoc-tekst ved hjelp av teksteditorer som notepad, notepad++, emacs o.l. kan det være lettere å bruke *AsciidocFX*. Dette verktøyet har funksjonalitet til å gi et samtidig inntrykk av hvordan teksten vil se ut i det ferdige dokumentet.
+
+.Installasjon av AsciidocFX
+[%collapsible]
+====
+Gå til link:https://asciidocfx.com/[^], der du vil finne siste versjon.
+
+// For Windows finnes den både som en portabel installasjon og som en installerbar fil //
+* Last ned zip-fila for Windows og pakk den ut der du vil ha den, f.eks som C:/AsciidocFX.
+* Alternativt kan du laste ned exe-filen for Windows, som er en kjørbar installasjonsfil.
+====
+
+
+==== Generere modellrapport i adoc
+Fra EA kan du generere en dokumentasjon av UML-modellen i AsciiDoc-format, som kan inkluderes i hoveddokumentet. 
+
+Skriptet __listAdocFraModell__ følger med den https://sosi.geonorge.no/modellfiler/sosi_modellregister.qea[ferdigkonfigurerte prosjektfila for modellregisteret], men kan også lastes ned fra https://github.com/kartverket/UML-modelleringsskript/blob/master/listAdocFraModell.vbs[github].
+
+
+=== Verktøy for å konvertere til publiseringsformat
+
+include::konvertereTilHtml.adoc[]
+
+include::konvertereTilPdf.adoc[]
+

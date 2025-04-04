@@ -1,0 +1,17 @@
+
+* Last ned siste versjon av TortoiseSVN i 64 bits utgave fra https://tortoisesvn.net/downloads.html
+            
+* Kjør installasjonsfilen og klikk deg gjennom installasjonen. +
+Her trenger du å installere kommandolinjeklienten for at EA skal fungere mot SOSI-modellregister.
+
+** For *Custom Setup* :
+*** Sett *command line client tools* til _Entire feature will be installd on local hard drive_. 
+
+** Noter deg hvilken mappe _svn.exe_ blir installert på. + 
+(Ved standard installasjon vil denne være C:\Program Files\TortoiseSVN\bin) 
+
+.Se skjermbilde fra installasjonen av SVN
+[%collapsible]
+======
+image::TortoiseSVNinstall3.png[Skjermbilde fra installasjonen]
+======

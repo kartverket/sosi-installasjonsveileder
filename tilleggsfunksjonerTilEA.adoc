@@ -1,0 +1,43 @@
+
+=== Tilleggsfunksjoner til EA
+
+Avhengig av hvordan modellene skal brukes, vil du ha behov for å installere noen tilleggsfunksjoner til EA. 
+// Nederfor finner du lenker til disse tilleggene.
+
+* Avslutt EA
+
+.Velg tilleggsfunksjoner og installer dem
+[%collapsible]
+====
+//.SOSI Model Validation Add-In
+.*SOSI Model Validation* for å validere UML-modeller
+[%collapsible]
+=====
+SOSI Model Validation hjelper deg å validere en UML-modell. Valideringen kontrollerer om modellen er i henhold til de krav og anbefalinger som er gitt i standarden https://register.geonorge.no/standarder/sosi/del-1-generell-del/regler-for-uml-modellering[Regler for UML-modellering (register.geonorge.no)].
+
+* https://register.geonorge.no/filer/uml-verkt%C3%B8y/sosi-model-validation-64-bit[Last ned SOSI model validation fra register.geonorge.no]
+=====
+
+//.ShapeChange Add-In
+.*ShapeChange Add-In* for realisering i GML-format
+[%collapsible]
+=====
+Når en UML-modell skal realiseres i GML-format, bruker du ShapeChange for å generere et GML-skjema for modellen.
+
+* https://register.geonorge.no/filer/uml-verkt%C3%B8y/shapechange-add-in-64-bit[Last ned ShapeChange Add-In fra register.geonorge.no]
+=====
+
+//.SOSI plugin
+.*SOSI plugin* for realisering i SOSI-format
+[%collapsible]
+=====
+Dersom en UML-modell skal realiseres i SOSI-format, trenger du dette tillegget for å generere definisjonsfiler for SOSI-kontroll. 
+
+* https://register.geonorge.no/filer/uml-verktøy/sosi-plugin-64-bit[Last ned SOSI plugin fra register.geonorge.no]
+
+=====
+
+====
+
+* Start opp igjen EA. + 
+Nå skal tilleggene være tilgjengelige
